@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Multi-Layered Framework for LLM Hallucination Mitigation in High-Stakes Applications: A Tutorial</title>
+  <style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif;
+       margin: 0; padding: 0; line-height: 1.5; }
+.container { max-width: 980px; margin: 0 auto; padding: 24px; }
+h1 { font-size: 1.6rem; margin: 0 0 8px; }
+h2 { font-size: 1.15rem; margin: 22px 0 10px; }
+.meta { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 18px; margin: 12px 0 18px; }
+.meta div { background: rgba(127,127,127,0.08); padding: 10px 12px; border-radius: 10px; }
+.meta b { display:block; font-size: .85rem; opacity: .8; margin-bottom: 2px; }
+.badges { display:flex; flex-wrap:wrap; gap: 8px; margin: 10px 0 0; }
+.badge { font-size: .85rem; padding: 6px 10px; border-radius: 999px; background: rgba(127,127,127,0.12); }
+.box { background: rgba(127,127,127,0.08); padding: 14px 16px; border-radius: 12px; }
+pre { white-space: pre-wrap; word-break: break-word; margin: 0; font-family: inherit; }
+hr { border: none; border-top: 1px solid rgba(127,127,127,0.22); margin: 18px 0; }
+a { color: inherit; opacity: .95; }
+.small { font-size: .92rem; opacity: .85; }
+footer { margin-top: 28px; font-size: .9rem; opacity: .8; }
+table { width:100%; border-collapse: collapse; }
+th, td { padding: 10px 8px; border-bottom: 1px solid rgba(127,127,127,0.22); vertical-align: top; }
+th { text-align: left; font-size: .9rem; opacity: .85; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <p class="small"><a href="index.html">← Retour à la catégorie</a></p>
+    <h1>Multi-Layered Framework for LLM Hallucination Mitigation in High-Stakes Applications: A Tutorial</h1>
+    
+    <div class="meta"><div><b>Auteurs</b>Hiriyanna, S.; Zhao, W.</div><div><b>Année</b>2025</div><div><b>Source</b>Computers</div><div><b>DOI</b><a href="https://doi.org/10.3390/computers14080332" target="_blank" rel="noopener noreferrer">https://doi.org/10.3390/computers14080332</a></div><div><b>Lien public</b><a href="https://doi.org/10.3390/computers14080332" target="_blank" rel="noopener noreferrer">https://doi.org/10.3390/computers14080332</a></div></div>
+
+    <h2>Extrait méthode (texte original)</h2><div class='box'><pre>In low-stakes settings this may be tolerable; in regulated or safety-critical domains such as financial services, compliance review, and client decision support, it is not.</pre></div>
+<h2>Extrait limites (texte original)</h2><div class='box'><pre>Large language models (LLMs) now match or exceed human performance on many open-ended language tasks, yet they continue to produce fluent but incorrect statements, which…</pre></div>
+<p class='small'>Référence extraits : Abstract (éditeur/Scopus) ou résumé extrait</p>
+    
+    
+    <h2>Résumé</h2><div class='box'><pre>Large language models (LLMs) now match or exceed human performance on many open-ended language tasks, yet they continue to produce fluent but incorrect statements, which is a failure mode widely referred to as hallucination. In low-stakes settings this may be tolerable; in regulated or safety-critical domains such as financial services,...</pre></div>
+    <h2>Abstract / Texte source</h2><div class='box'><pre>Large language models (LLMs) now match or exceed human performance on many open-ended language tasks, yet they continue to produce fluent but incorrect statements, which is a failure mode widely referred to as hallucination. In low-stakes settings this may be tolerable; in regulated or safety-critical domains such as financial services, compliance review, and client decision support, it is not. Motivated by these realities, we develop an integrated mitigation framework that layers complementary controls rather than relying on any single technique. The framework combines structured prompt design, retrieval-augmented generation (RAG) with verifiable evidence sources, and targeted fine-tuning aligned with domain truth constraints. Our interest in this problem is practical. Individual mitigation techniques have matured quickly, yet teams deploying LLMs in production routinely report difficulty stitching them together in a coherent, maintainable pipeline. Decisions about when to ground a response in retrieved data, when to escalate uncertainty, how to capture provenance, and how to evaluate fidelity are often made ad hoc. Drawing on experience from financial technology implementations, where even rare hallucinations can carry material cost, regulatory exposure, or loss of customer trust, we aim to provide clearer guidance in the form of an easy-to-follow tutorial. This paper makes four contributions. First, we introduce a three-layer reference architecture that organizes mitigation activities across input governance, evidence-grounded generation, and post-response verification. Second, we describe a lightweight supervisory agent that manages uncertainty signals and triggers escalation (to humans, alternate models, or constrained workflows) when confidence falls below policy thresholds. Third, we analyze common but under-addressed security surfaces relevant to hallucination mitigation, including prompt injection, retrieval poisoning, and policy evasion attacks. Finally, we outline an implementation playbook for production deployment, including evaluation metrics, operational trade-offs, and lessons learned from early financial-services pilots. © 2025 by the authors.</pre></div>
+
+    <footer>Généré depuis articles_lr_tous_axes_complet_citations.xlsx</footer>
+  </div>
+</body>
+</html>
